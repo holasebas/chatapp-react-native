@@ -16,9 +16,6 @@ import {
 const { width, height } = Dimensions.get("window");
 
 const background = require("../images/bg7.jpg");
-const mark = require("../images/login1_mark.png");
-const lockIcon = require("../images/login1_lock.png");
-const personIcon = require("../images/login1_person.png");
 
 
 
@@ -57,9 +54,7 @@ export default class login extends Component {
           </View>
           <View style={styles.wrapper}>
             <View style={styles.inputWrap}>
-              <View style={styles.iconWrap}>
-                <Image source={personIcon} style={styles.icon} resizeMode="contain" />
-              </View>
+              
               <TextInput 
                 placeholder="Nickname" 
                 placeholderTextColor="#FFF"

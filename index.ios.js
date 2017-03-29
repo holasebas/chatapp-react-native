@@ -48,18 +48,15 @@ export default class chatApp extends Component {
       return Navigator.SceneConfigs.PushFromRight
       default:
       return Navigator.SceneConfigs.FloatFromRight
-
     }
   }
 
   render(){
     return(
-
        <Navigator
        initialRoute={{ ident: "Login" }}
        renderScene={this._rederScene}
        configureScene={this._configureScene}
-    
        />
 
 

@@ -44,12 +44,10 @@ export default class chat extends Component {
 
        
     this.socket.on('receiver', (message) => {
-
-
-      data = [ { text: message.message[0].text,
-    user: { _id: 2 },
-    createdAt: message.message[0].createdAt,
-    _id: message.message[0]._id } ]
+      var data = [ { text: message.message[0].text,
+                 user: { _id: 2 },
+                 createdAt: message.message[0].createdAt,
+                _id: message.message[0]._id } ]
 
 
 
