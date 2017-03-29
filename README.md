@@ -10,10 +10,10 @@ Simple chat app using react-native and socket-io
     2.2 npm install
   
     2.3 npm start
-  
-3. cd chatapp-react-native
-4. npm install
-5. react-native run-ios
+3. open components/profile.js and set line 22 with your own local ip  
+4. cd chatapp-react-native
+5. npm install
+6. react-native run-ios
 
 NOTE: if remote JS debuggin is activated, disable it, using cmd + D
 
