@@ -3,7 +3,7 @@ Simple chat app using react-native and socket-io
 # Usage
 1. git clone https://github.com/holasebas/chatapp-react-native.git
 
-2. Run server side
+2. Run node server side
 
     2.1 cd chatapp-react-native/chatAppServer
   
