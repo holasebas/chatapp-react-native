@@ -19,6 +19,7 @@ const ds2 = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2})
 export default class profile extends Component {
   constructor(props) {
     super(props);
+    //use your own local ip
      this.socket = SocketIOClient('http://192.168.1.72:8080');
       this.state = {
           users:[{id:1, nickname:"Loading..."}],
