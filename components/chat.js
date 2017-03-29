@@ -17,7 +17,7 @@ import SocketIOClient from 'socket.io-client';
 import TopBar from './topBar';
 import { GiftedChat } from 'react-native-gifted-chat';
 
-var personIcon = require("../images/login1_person.png");
+
 var width = Dimensions.get('window').width;
 var height = Dimensions.get('window').height;
 export default class chat extends Component {
