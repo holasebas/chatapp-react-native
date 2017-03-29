@@ -37,7 +37,7 @@ export default class chatApp extends Component {
       case 'Profile':
         return(<Profile {...globalProps} nickname={route.nickname}/>)
       case 'Chat':
-        return(<Chat {...globalProps} />)
+        return(<Chat {...globalProps} receiver={route.receiver} emitter={route.emitter}  socket={route.socket}/>)
     }
   }
   _configureScene(route, routeStack){

@@ -15,7 +15,7 @@ import {
 
 const { width, height } = Dimensions.get("window");
 
-const background = require("../images/wall2.jpg");
+const background = require("../images/bg7.jpg");
 const mark = require("../images/login1_mark.png");
 const lockIcon = require("../images/login1_lock.png");
 const personIcon = require("../images/login1_person.png");
